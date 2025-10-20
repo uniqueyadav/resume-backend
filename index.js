@@ -54,4 +54,4 @@ async function connectToMongoDB() {
         console.error("Error Connecting to MongoDB :", error)
     }
 }
-// module.exports = app
+module.exports = app
